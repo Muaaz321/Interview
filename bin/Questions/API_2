@@ -25,3 +25,51 @@ Output validation and verification
 19. Common API errors that often founded ? 
 
 Missing module / Documentation error / Parameter validation error / standard error (negative data)
+
+20. API Documentation ? 
+Swagger / mireDot API / RestDoc 
+
+21. When writing API document , what must be considered ?
+
+Source of the content 
+Document plan or Sketch 
+Delivery layout 
+Information needed for every function in the doc
+Automatic document creation programs
+
+
+22. What is REST ? 
+
+Representation State Transfer is a architectual style for developing web services which exploit
+the ubiquity of HTTP protocol and uses HTTP method to defined actions.
+
+23. What is Restful Web Services ? 
+2 kind of web services 
+
+SOAP / RestFul
+
+24. Some characteristic on REST
+
+Stateful tracks information about the state of a connection or application, 
+while stateless does not. Stateless and stateful protocols are fundamentally different from each other. 
+
+A stateless system sends a request to the server and relays the response (or the state) back without storing 
+any information
+
+25. Components of HTTP Request ? 
+	
+	HTTP Methods : GET , PUT , POST , DELETE
+	URI
+	HTTP version
+	Request Header , Key and value pair
+	Request Body , payload
+	
+26. PUT vs PATCH
+
+PUT , new information will update along with entire object
+PATCH , only new information will update , others will not update
+
+27. OPTIONS is used to describe the communication options for the target resource
+	GET , POST , PUT , DELETE examples
+
+	28. Schema validation
