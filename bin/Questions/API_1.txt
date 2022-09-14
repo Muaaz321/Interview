@@ -1,0 +1,93 @@
+01.What is API ? 
+enables two applications to communicate with each other. it comprimise a number of
+of subroutine definition , logs , and tools for creating application software.
+
+Google maps , Twitter API , 
+
+customer and kitchen , api is the waiter.
+
+02.Different between API and WebService ? 
+
+All Web Services as API , but not all API are web Services 
+API are accessible from the network
+
+Web Services might not contain all the specifications and cannot perform all the
+task that API would perform
+
+create a method and put in to a web url then it becomes Web Services.
+Webservices need only URL , different parameter , Execution of internal business logic
+execute by API
+
+
+Web Services are uses : SOAP , REST , XML-RPC
+API expose to multiple ways
+
+03. What are the limits of API usage ?
+Many API have certain limit set up by provider , estimate your usage and understand 
+how that will impact the overall cost of the offering.
+
+
+04. What are some architectural styles for creating a Web API?
+
+HTTP for client server communication
+XML / JSON as Formatting language : Java systems to dot net Systems communicate
+Simple URI as the address for the services
+
+05. Who can use Web API ?
+Can be consume by any client which support HTTP verb such as GET , PUT , DELETE , POST
+ 
+06. What is API Testing ? 
+ Kind of a testing that determines if the developed  APIs meet 	expectations regarding 
+ the functionality , reliability , performance , and secuity of the application
+ 
+ 07. What are the advantages of API Testing ? 
+ 
+ Test for Core functionality / Time Effective / Language Independent (java, c# , python) /
+ Easy integration with GUI
+ 
+ 08. Some common protocols used in API Testing ? 
+ JMS , REST , HTTP , UDDI & SOAP
+ 
+ 09. What is the test enviorament of API ? 
+ Consider DB & Server (qa , dev , prod) , maintaining config for each enviorament
+ 
+ 10. What are the principle of an API test design ? 
+ Setup (create object , start services , initilize data)
+ Execution (steps to apply API , scenario)
+ Verification (oracles to evaluate the result of the execution)
+ Reporting (pass , fail or blocked)
+ Clean up (pre test state)
+ 
+ 11. What are the common API testing types ? 
+ Validtion , Functional , UI , Load , Run Time / Error detection , Security , 
+ Penetration , Fuzz , Interopatibility and WS Compliance testing
+ 
+ 12. What is the procedure to perform API Test ? 
+ Choose the suite to add the API tc
+ Choose the test enviorament mode
+ Demand the development of tc for the required API methods 
+ Configure the control parameters of the application and then test conditions 
+ Configure method validation
+ Execute the api test 
+ Check test reports and filter API tc
+ Arrange all API test case
+ 
+ 13. What must be checked when performing API testing ? 
+ Accuracy of Data / Schema Validation 
+ HTTP Status code (https://developer.mozilla.org/en-US/docs/Web/HTTP/Status )
+ / Data type , validation , order and completeness
+ Authorization checks 
+ Implementation of response timeout 
+ Error codes in cas API returns 
+ 
+ 14. What is the approach method to perform API Testing ? 
+ Defining the correct input parameter
+ Verifying the calls of the mixture of two or more added value parameters 
+ Defining the basic functionality and scope of the API program
+ Write relevant API tc's , equuilance class , boundary value , to check the operatability 
+ Tc's execution 
+ 
+ 
+ 
+ 
+ 

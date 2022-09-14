@@ -1,0 +1,27 @@
+16. What are the difference between API and Unit testing ?
+
+Api Test											Unit Test
+------------										---------------
+1#Conduct by QA Team								Conduct by Dev Team
+2#Mostly black box test								White box test
+3#Aimed to access the full functionality			Used to verify each unit in isolation performs as expected or not
+of the system for it will be employed 
+by end user / external dev
+4#Often run after the build and authors             Each of the code modules must be ensured to pass the unit test before being built by dev
+do not have access to the source code
+
+17. API and UI difference ? 
+
+communicate between two systems - API
+UX , Layout , images - UI
+
+18. Major challenges faced in API Test ?
+
+Parameter Selection
+Parameter Combination
+Call Sequence 
+Output validation and verification
+
+19. Common API errors that often founded ? 
+
+Missing module / Documentation error / Parameter validation error / standard error (negative data)
