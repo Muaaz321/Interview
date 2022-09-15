@@ -52,14 +52,14 @@ Can be consume by any client which support HTTP verb such as GET , PUT , DELETE 
  Consider DB & Server (qa , dev , prod) , maintaining config for each enviorament
  
  10. What are the principle of an API test design ? 
- Setup (create object , start services , initilize data)
+ Setup (create object , start services , initialize data)
  Execution (steps to apply API , scenario)
  Verification (oracles to evaluate the result of the execution)
  Reporting (pass , fail or blocked)
  Clean up (pre test state)
  
  11. What are the common API testing types ? 
- Validtion , Functional , UI , Load , Run Time / Error detection , Security , 
+ Validation , Functional , UI , Load , Run Time / Error detection , Security , 
  Penetration , Fuzz , Interopatibility and WS Compliance testing
  
  12. What is the procedure to perform API Test ? 
