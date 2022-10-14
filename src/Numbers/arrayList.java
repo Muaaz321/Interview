@@ -18,7 +18,19 @@ public class arrayList {
 			String shows = it.next();
 			System.out.println(shows);
 		}
-
+		
+		
+		ArrayList<String> myEducation = new ArrayList<>();
+		myEducation.add("montesory");
+		myEducation.add("Ordinary level");
+		myEducation.add("Advance Level");
+		
+		Iterator<String> myIterator = myEducation.iterator();
+		while(myIterator.hasNext()) {
+			String elements = myIterator.next();
+			System.out.println(elements);
+		}
+		
 	}
 
 }

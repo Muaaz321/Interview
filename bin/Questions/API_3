@@ -39,6 +39,8 @@ Jsonpath
     "expensive": 10
 }
 
+TOOL " https://jsonpathfinder.com/
+
 >> $.store.bicycle / to retrieve bicycle tags
 >> $.store.book[*].author / to retrieve author tags
 >> $..author / to retrieve author tags
